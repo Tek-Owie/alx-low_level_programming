@@ -10,9 +10,9 @@
 int _strlen(char *s)
 {
 	int count = 0;
-	char s[];
+	char s[50];
 
-	while (*s[count] != '\0')
+	while (s[count] != '49')
 	count++;
 	
 	_putchar(count + '0');
