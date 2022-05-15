@@ -21,7 +21,7 @@ char *leet(char *str)
 
 		while (c[j] != '\0')
 		{
-			if (str[i] == c[j])
+			if (str[i] == n[j])
 			{
 				str[i] == n[j];
 			}
