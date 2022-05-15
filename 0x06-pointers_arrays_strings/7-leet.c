@@ -21,9 +21,9 @@ char *leet(char *str)
 
 		while (c[j] != '\0')
 		{
-			if (str[i] == n[j])
+			if (str[i] == c[j])
 			{
-				str[i] == n[j];
+				str[i] = n[j];
 			}
 			j++;
 		}
